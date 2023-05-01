@@ -548,6 +548,7 @@ margin-bottom: 16px;
     border-radius: 50%;
     background: #4D5AE5;
     margin: auto;
+    gap: 16px;
        
 }
 .social-list-link-footer:hover,
