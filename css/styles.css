@@ -217,7 +217,7 @@ a{
 .employee{ 
     background: #F4F4FD; 
     padding: 120px 0;
-    0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 .footer{
     display: flex;
@@ -455,16 +455,11 @@ color: #FFFFFF;
 .social-list{
     display: flex;
     justify-content: center;
-    padding: 32px 0;
-    /* gap: 24px;
-    margin-left:16px ;
-    width: 208px;
-height: 80px; */
-/* left: 540px;
-top: 1864px; */
-/* background: #F4F4FD; */
+   
 }
 .social-list-item{
+    /* width: 40px;
+    height: 40px; */
     /* display: block; */
       /* justify-content: space-between; */
     
@@ -483,6 +478,10 @@ top: 1864px; */
     margin: auto;
     
     
+}
+.social-list-link:hover,
+.social-list-link:focus{
+    background-color: #404bbf;
 }
 .social-media{
     font-weight: 500;
