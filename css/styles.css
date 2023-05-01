@@ -208,6 +208,38 @@ a{
 .connection-portfolio{
     gap: 40px;
 }
+.customers{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+margin-bottom: 72px; 
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+
+}
+.customers-list-item{
+    width: calc((100% - 120px) / 6);
+    height :88px;
+}
+.customers-list-link{
+    border: 1px solid #8E8F99;
+border-radius: 4px;
+display: flex;
+align-items: center; 
+justify-content: center;
+color: #8e8f99;
+
+}
+.customers-list-link:hover,
+.customers-list-link:focus{
+    color: #404bbf; 
+}
+
+.customers-section{
+    padding-top: 120px; 
+}
 .descuption{
     font-weight: 400;
     font-size: 16px;
