@@ -471,8 +471,9 @@ margin-bottom: 16px;
    
 }
 .social-list-item{
-    /* width: 40px;
-    height: 40px; */
+
+    width: 40px;
+    height: 40px;
     /* display: block; */
       /* justify-content: space-between; */
     
@@ -489,12 +490,26 @@ margin-bottom: 16px;
     border-radius: 50%;
     background: #4D5AE5;
     margin: auto;
-    
-    
+       
 }
 .social-list-link:hover,
 .social-list-link:focus{
     background-color: #404bbf;
+}
+.social-list-link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #4D5AE5;
+    margin: auto;
+       
+}
+.social-list-link-footer:hover,
+.social-list-link-footer:focus{
+    background-color: #31d0aa; 
 }
 .social-media{
     font-weight: 500;
