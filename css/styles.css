@@ -105,9 +105,12 @@ a{
     color: #434455;
     padding: 120px 0;
     }
-.total-information{
-    width: calc((100% - 48px) / 3);
+.achivement-link{
+    display: flex;
+align-items: center; 
+justify-content: center;
 }
+
 .body-logo { 
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -561,6 +564,9 @@ color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    }
+.total-information{
+        width: calc((100% - 48px) / 3);
     }
 .web-name{
     color:var(--web-name-color)
