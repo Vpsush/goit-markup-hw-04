@@ -71,6 +71,7 @@ a{
     justify-content: center;
     margin-bottom: 8px;
 }
+
 .wrapper{
     
     
@@ -228,6 +229,11 @@ a{
 /* .footer-portfolio{
     background-color:#2e2f42;
 } */
+.footer-continer{
+    display: flex;
+    align-items: baseline;
+
+}
 .features{
     font-weight: 500;
     font-size: 20px;
@@ -316,6 +322,10 @@ a{
     padding: 24px 0;
     margin-right: 76px;}
     
+.logo-footer-conclusion{
+    margin-right: 120px;
+
+}
 .mail{
     font-weight: 400;
   font-size: 16px;
@@ -448,12 +458,15 @@ a{
 .social-media{
     font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+margin-bottom: 16px;
+
 }
 .social-list{
     display: flex;
+    gap: 16px;
     justify-content: center;
    
 }
