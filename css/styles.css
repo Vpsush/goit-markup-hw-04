@@ -506,8 +506,9 @@ margin-bottom: 16px;
 }
 .social-list{
     display: flex;
-    gap: 16px;
+    /* gap: 16px; */
     justify-content: center;
+    gap: 24px;
    
 }
 .social-list-item{
