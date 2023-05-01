@@ -490,6 +490,8 @@ margin-bottom: 16px;
     border-radius: 50%;
     background: #4D5AE5;
     margin: auto;
+    width: 100%;
+    height: 100%,
        
 }
 .social-list-link:hover,
