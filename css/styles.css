@@ -219,6 +219,9 @@ text-transform: capitalize;
 color: #2E2F42;
 
 }
+.customers-list-icon{
+    fill: currentColor; 
+}
 .customers-list-item{
     width: calc((100% - 120px) / 6);
     height :88px;
@@ -235,10 +238,12 @@ color: #8e8f99;
 .customers-list-link:hover,
 .customers-list-link:focus{
     color: #404bbf; 
+    border-color: #404bbf; 
 }
 
 .customers-section{
     padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .descuption{
     font-weight: 400;
