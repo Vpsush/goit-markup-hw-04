@@ -219,6 +219,7 @@ a{
     padding: 120px 0;
 }
 .footer{
+    display: flex;
     background-color:#2e2f42 ; 
     padding: 100px 0;
     /* width: calc((100% - 72px) / 4);  */
@@ -442,6 +443,7 @@ a{
      background-image:url("../images/Dark-bg.jpg");
     background: rgba(46, 47, 66, 0.7); 
 } */
+}
 .section-buttons{
     padding: 96px 0 120px;
 }
