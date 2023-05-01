@@ -394,11 +394,11 @@ color: #8e8f99;
     padding: 0 15px; */
 }
 .main-section{ 
-    background-color: #2e2f42;
+       background-color: #2e2f42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   background-image:url("../images/Dark-bg.jpg");
-  max-width: 1440px;
+  /* max-width: 1440px; */
   background-repeat: no-repeat; 
   background-position: center; 
   background-size: cover;
@@ -486,9 +486,7 @@ color: #8e8f99;
     color: #2E2F42;
     margin-bottom: 72px;  
 }
-.section{
 
-}
 .section-buttons{
     padding: 96px 0 120px;
 }
