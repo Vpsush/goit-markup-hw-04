@@ -350,15 +350,13 @@ color: #8e8f99;
     font-size: 18px;
     line-height: 1.17;
     color:#4d5ae5;
-    /* font-style: normal; */
-    align-items: center;
+      align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
     display: inline-block;
     margin-bottom: 16px;
-    /* display: flex; */
-    padding: 24px 0;
+     padding: 24px 0;
     margin-right: 76px;}
     
 .logo-footer-conclusion{
@@ -588,6 +586,13 @@ color: #FFFFFF;
 .total-information{
         width: calc((100% - 48px) / 3);
     }
+.total-information-link{
+    display: block;
+}
+.total-information-link:hover,
+.total-information-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .web-name{
     color:var(--web-name-color)
 }
