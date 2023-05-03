@@ -516,6 +516,13 @@ margin-bottom: 16px;
     gap: 24px;
    
 }
+.social-list-footer{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    /* gap: 24px; */
+   
+}
 .social-list-item{
 
     width: 40px;
