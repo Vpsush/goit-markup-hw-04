@@ -235,6 +235,7 @@ display: flex;
 align-items: center; 
 justify-content: center;
 color: #8e8f99;
+height: 100%;
 
 }
 .customers-list-link:hover,
@@ -263,11 +264,9 @@ color: #8e8f99;
     display: flex;
     background-color:#2e2f42 ; 
     padding: 100px 0;
-    /* width: calc((100% - 72px) / 4);  */
+   
 }
-/* .footer-portfolio{
-    background-color:#2e2f42;
-} */
+
 .footer-container{
     display: flex;
     align-items: baseline;
