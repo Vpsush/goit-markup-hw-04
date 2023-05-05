@@ -355,7 +355,7 @@ height: 100%;
     
     display: inline-block;
     margin-bottom: 16px;
-     padding: 24px 0;
+     /* padding: 24px 0; */
     margin-right: 76px;}
     
 .logo-footer-conclusion{
@@ -401,6 +401,8 @@ height: 100%;
   background-position: center; 
   background-size: cover;
   max-width: 1440px; 
+  height: 600px;
+  margin: auto;
     } 
 .main-title{
     margin: auto;
@@ -488,11 +490,6 @@ height: 100%;
     margin-bottom: 72px;  
 }
 .section{
-      /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-   url(../images/Dark-bg.jpg);
-    background-repeat: no-repeat; 
-  background-position: center; 
-  background-size: cover;  */
 }
 
 .section-buttons{
@@ -535,11 +532,11 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 44px;
-    height: 44px;
+    /* width: 44px;
+    height: 44px; */
     border-radius: 50%;
     background: #4D5AE5;
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
     height: 100%;      
 }
